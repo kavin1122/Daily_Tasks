@@ -11,7 +11,7 @@ public class Main {
                 l++;
             }
             set.add(s.charAt(r));
-            mx=Math.mx(mx,r-l+1);
+            mx=Math.max(mx,r-l+1);
         }
         System.out.print(mx);
     }
